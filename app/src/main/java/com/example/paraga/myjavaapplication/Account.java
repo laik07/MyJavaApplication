@@ -72,12 +72,12 @@ public class Account {
         }
     }
 
-    CertificatePinner certPinner = new CertificatePinner.Builder()
-            .add("appmattus.com",
-                    "sha256/4hw5tz+scE+TW+mlai5YipDfFWn1dqvfLG+nU7tq1V8=")
-            .build();
-
-    OkHttpClient okHttpClient = new OkHttpClient.Builder()
-            .certificatePinner(certPinner)
-            .build();
+//    CertificatePinner certPinner = new CertificatePinner.Builder()
+//            .add("appmattus.com",
+//                    "sha256/4hw5tz+scE+TW+mlai5YipDfFWn1dqvfLG+nU7tq1V8=")
+//            .build();
+//
+//    OkHttpClient okHttpClient = new OkHttpClient.Builder()
+//            .certificatePinner(certPinner)
+//            .build();
 }
